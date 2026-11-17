@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FCE8EE">
+
+    <title>Feliz cumpleaños ❤️</title>
+
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="fondo-luces"></div>
+    <div class="corazones" id="corazones"></div>
+
+    <main class="container">
+
+        <!-- PANTALLA INICIAL -->
+
+        <section id="inicio" class="inicio">
+
+            <div class="decoracion-superior">✦　♡　✦</div>
+
+            <p class="subtitulo">HOY ES UN DÍA MUY ESPECIAL</p>
+
+            <h1>¡Feliz cumpleaños! 🎂</h1>
+
+            <p class="descripcion">
+                Hoy es el cumpleaños de una persona maravillosa.
+                Preparé una pequeña sorpresa para ti,
+                con mucho amor.
+            </p>
+
+            <div class="pastel">🎂</div>
+
+            <p class="invitacion">
+                Hay algo especial esperando por ti...
+            </p>
+
+            <!-- SOBRE -->
+
+            <button class="sobre" id="sobre" aria-label="Abrir la carta">
+
+                <div class="sobre-fondo"></div>
+
+                <div class="carta-interior">
+                    <span>❤️</span>
+                    <p>Una carta para ti</p>
+                </div>
+
+                <div class="solapa"></div>
+                <div class="bolsillo"></div>
+
+                <div class="sello">♥</div>
+
+            </button>
+
+            <p class="instruccion">
+                Toca el corazón para abrir tu regalo
+            </p>
+
+            <div class="decoracion-inferior">♡　✧　♡</div>
+
+        </section>
+
+
+        <!-- CARTA PRINCIPAL -->
+
+        <section class="carta" id="carta" hidden>
+
+            <div class="encabezado-carta">
+                <span>✦</span>
+                <p>UN REGALO PARA EL AMOR DE MI VIDA</p>
+                <span>✦</span>
+            </div>
+
+            <h2>Para ti, mi persona favorita ❤️</h2>
+
+            <div class="separador">♥ ♥ ♥</div>
+
+            <p class="mensaje">
+                Si hay alguien que merece recibir cosas bonitas
+                de la vida, eres tú. Y espero poder recordártelo
+                no solamente hoy, sino todos los días.
+            </p>
+
+            <p class="mensaje">
+                Quería regalarte algo diferente, algo que
+                pudieras guardar y recordar cada vez que
+                lo vuelvas a abrir.
+            </p>
+
+            <p class="mensaje">
+                Porque me encanta ver todo lo que has logrado,
+                la persona en la que te has convertido y todo
+                lo que todavía te espera.
+            </p>
+
+
+            <!-- RECUERDO DE SU INFANCIA -->
+
+            <section class="recuerdos">
+
+                <p class="etiqueta-foto">UN VIAJE AL PASADO</p>
+
+                <h2>Para aquella pequeña niña... ❤️</h2>
+
+                <img
+                    src="imagenes/nina.jpeg"
+                    alt="Fotografía de su infancia"
+                    class="foto-recuerdo">
+
+                <p>
+                    A veces la vida nos pone frente a situaciones
+                    que nunca imaginamos y nos hace pasar por
+                    momentos que no son fáciles.
+
+                    Pero hay algo que quiero que nunca olvides:
+                    esa pequeña niña sigue siendo parte de ti,
+                    y merece cumplir todos esos sueños que
+                    alguna vez tuvo.
+
+                    Quiero que nunca dejes de soñar, que nunca
+                    pierdas esa ilusión tan bonita y que siempre
+                    tengas motivos para sentirte orgullosa de ti misma.
+
+                    Quiero acompañarte mientras construyes
+                    todo aquello que alguna vez imaginaste.
+                </p>
+
+            </section>
+
+
+            <!-- GALERÍA AUTOMÁTICA -->
+
+            <section class="galeria">
+
+                <p class="etiqueta-foto">
+                    CINCO RECUERDOS DE UNA PERSONA ESPECIAL
+                </p>
+
+                <h2>Y mira en quién te has convertido... ✨</h2>
+
+                <p class="galeria-descripcion">
+                    Cada fotografía guarda un momento,
+                    y cada momento cuenta una parte de tu historia.
+                </p>
+
+                <div class="visor-galeria">
+
+                    <img
+                        id="fotoGaleria"
+                        src="imagenes/foto1.jpeg"
+                        alt="Fotografía 1 de 5"
+                        class="foto-galeria">
+
+                </div>
+
+                <p class="texto-galeria">
+                    Hay momentos que merecen quedarse
+                    para siempre en nuestra memoria. ❤️
+                </p>
+
+            </section>
+
+
+            <!-- FELICITACIÓN -->
+
+            <section class="felicitacion">
+
+                <div class="estrellas">✦ ✧ ✦</div>
+
+                <div class="pastel-final">🎂</div>
+
+                <h2>¡Feliz cumpleaños! ❤️</h2>
+
+                <p>
+                    Deseo que esta nueva vuelta al sol
+                    te regale momentos inolvidables,
+                    muchas sonrisas, aventuras y sueños cumplidos.
+
+                    Que la vida te sorprenda con cosas maravillosas
+                    y que nunca te falten razones para ser feliz.
+                </p>
+
+                <h3>Nunca dejes de brillar. ✨</h3>
+
+                <p class="firma-final">
+                    Con mucho cariño, para ti.
+                </p>
+
+            </section>
+
+
+            <!-- SORPRESA FINAL -->
+
+            <button id="botonSorpresa" class="boton">
+                Tengo algo más que decirte ❤️
+            </button>
+
+            <p id="sorpresa" class="sorpresa"></p>
+
+            <div class="final-decoracion">♡ ✦ ♡ ✦ ♡</div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
